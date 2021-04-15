@@ -384,6 +384,9 @@ box-shadow: 8px 12px 31px -10px #ab98ab;
      color: #66BFBF;
      padding-bottom: 10px;
    }
+   body {
+    background-color: lightblue;
+  }
 
 @media (max-width: 768px) and (min-width: 577px){
   .Projects{
