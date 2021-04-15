@@ -355,7 +355,7 @@ box-shadow: 8px 12px 31px -10px #ab98ab;
 }
 @media only screen and (max-width: 576px){
   .Projects{
-    margin-top:220%;
+    margin-top:200%;
   }
   .mountain-img{
     width: 100%;
