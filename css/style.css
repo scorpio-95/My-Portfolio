@@ -353,7 +353,7 @@ box-shadow: 8px 12px 31px -10px #ab98ab;
   color: #ffffff;
   background: #48dad0;
 }
-@media screen and (max-width: 576px){
+@media only screen and (max-width: 576px){
   .Projects{
     margin-top:90%;
   }
