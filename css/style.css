@@ -414,3 +414,11 @@ box-shadow: 8px 12px 31px -10px #ab98ab;
     margin: auto;
   }
 }
+@media (max-width: 1020px) and (min-width: 992px){
+ .top-cloud{
+   right: 100px;
+ }
+ .bottom-cloud{
+   left: 100px;
+ }
+}
