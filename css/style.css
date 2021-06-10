@@ -11,7 +11,7 @@ a.nav-link:hover{
 a.nav-link{
   color: #66BFBF;
   font-family: 'Montserrat',sans-serif;
-  margin: 10px 50px;
+  margin: 10px 0px;
   font-weight: 400;
 }
 
@@ -51,7 +51,7 @@ h3{
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
-
+  overflow-x: hidden;
 
 }
 .bottom-cloud{
@@ -88,7 +88,7 @@ p{
   margin-right: 30px;
 }
 .profile-description{
-  width: 30%;
+  width: 40%;
   margin: auto;
 }
 hr{
@@ -388,10 +388,15 @@ box-shadow: 8px 12px 31px -10px #ab98ab;
    body {
     overflow-x: hidden;
   }
+}
 
 @media (max-width: 768px) and (min-width: 577px){
   .Projects{
     margin-top:40%;
+  }
+  .profile-description{
+    width: 80%;
+    margin: auto;
   }
 
 
@@ -403,5 +408,9 @@ box-shadow: 8px 12px 31px -10px #ab98ab;
   .ppmainimg{
     width: 350px;
     height: 300px;
+  }
+  .profile-description{
+    width: 80%;
+    margin: auto;
   }
 }
