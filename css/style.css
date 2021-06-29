@@ -422,3 +422,89 @@ box-shadow: 8px 12px 31px -10px #ab98ab;
    left: 100px;
  }
 }
+
+.container2 {
+  position: relative;
+  margin-top: 50px;
+  width: 100%;
+height: 550px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container2:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.img2 {
+  width: 100%;
+height: 550px;
+opacity: 0.8;
+}
+
+.title {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  top: 40%;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #11cdd4;
+  z-index: 1;
+  transition: top .5s ease;
+  
+}
+
+.container2:hover .title {
+  top: 30%;
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+
+.button2 {
+  position: absolute;
+  left: 36.5%;
+  top: 40%;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999a);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999a);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999a);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999a);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999a);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+    font-family: 'Montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button2 a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.container2:hover .button2 {
+  opacity: 1;
+}
